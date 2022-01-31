@@ -40,20 +40,30 @@
 
 /*CSS STYLE*/
 
-/*Esercizi*/
+/*Esercizio 1*/
 
 .ex-1-square {
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    transition: background-color 3s;
+}
+.ex-1-square:hover {
+    background-color: red;
 }
 
+/*Esercizio 2*/
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: width 3s;
+}
+.ex-2-square:active {
+    width: 1000px;
 }
 
+/*Esercizio 3*/
 .ex-3-square {
     width: 100px;
     height: 100px;
