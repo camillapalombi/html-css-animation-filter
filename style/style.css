@@ -211,6 +211,7 @@
     height: 20px;
 }
 
+/*TOP*/
 .ex-12-button:hover .ex-12-top-white {
     animation-name: ex-12-top-white;
     animation-duration: 1.5s;
@@ -229,6 +230,7 @@
     }
 }
 
+/*BOTTOM*/
 .ex-12-button:hover .ex-12-bottom-white {
     animation-name: ex-12-bottom-white;
     animation-duration: 1.5s;
@@ -248,3 +250,68 @@
 }
 
 /*Esercizio 13*/
+
+/*TOP*/
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: ex-13-top-white;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes ex-13-top-white {
+    0% {
+        left: 10%;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    40% {
+        top: 100%;
+        left: calc(100% - 30px);
+    }
+    75% {
+        left: 0px;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+    }
+
+}
+
+/*BOTTOM*/
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: ex-13-bottom-white;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes ex-13-bottom-white {
+    0% {
+        right: 10%;
+        bottom: -10px;
+    }
+    30% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    45% {
+        bottom: 100%;
+        right: calc(100% - 30px);
+    }
+    75% {
+        right: 0px;
+        bottom: 100%;
+    }
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        right: 10%;
+    }
+
+}
