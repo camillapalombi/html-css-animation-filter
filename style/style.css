@@ -68,14 +68,25 @@
     width: 100px;
     height: 100px;
     background: red;
+    border-radius: 0;
+    transition: border-radius 2s;
+}
+.ex-3-square:hover {
+    border-radius: 50px;
 }
 
+/*Esercizio 4*/
 .ex-4-square {
     width: 100px;
     height: 100px;
-    background: red;
+    background-color: red;
+    transition: background-color 3s;
+}
+.ex-4-square:hover {
+    background-color: transparent;
 }
 
+/*Esercizio 5*/
 .ex-5-square {
     margin: 20px;
     width: 60px;
